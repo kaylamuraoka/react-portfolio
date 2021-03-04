@@ -79,8 +79,8 @@ All comments and suggestions regarding improvements to this project are welcomed
 
 Please use the contact information below if you would like to reach me with any questions.
 
-![My Github Profile Picture](https://avatars.githubusercontent.com/u/48099435?s=400&u=d6386c0b51a7898d7a3e27613af6446d027a7cf5&v=4=20x20)
+<img src="https://avatars.githubusercontent.com/u/48099435?s=400&u=d6386c0b51a7898d7a3e27613af6446d027a7cf5&v=4=20x20" width="250" height="250" alt="My Github Profile Picture">
 
-- Github Profile: [**@kaylamuraoka**](https://github.com/kaylamuraoka)
+Github Profile: [**@kaylamuraoka**](https://github.com/kaylamuraoka)
 
-- Email: [**kmurs98@gmail.com**](kmurs98@gmail.com)
+Email: [**kmurs98@gmail.com**](kmurs98@gmail.com)
