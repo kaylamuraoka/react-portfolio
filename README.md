@@ -29,7 +29,7 @@
 
 ## Description
 
-This is a simple SPA (Single Paged Application) Portfolio template for developer/designers built with React. Use it to showcase your work, testimonials and other information to clients.
+This is a SPA (Single Paged Application) resume/portfolio website built with React showcasing my work and other personal information to clients.
 
 ## Table of Contents
 
@@ -73,7 +73,7 @@ This project is licensed under the [**MIT**](https://opensource.org/licenses/MIT
 
 ## Contributing
 
-All comments and suggestions regarding improvements to this project are welcomed. To contribute to this project, clone this [**project repository**](https://github.com/kaylamuraoka/React-Employee-Directory) locally and commit your code on a separate branch. You may then modify the code to your liking, submit well-formed pull requests and open useful issues. For steps on how to clone a repository using the command line, read this section of the Github Docs [**about cloning a repository**](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#about-cloning-a-repository).
+All comments and suggestions regarding improvements to this project are welcomed. To contribute to this project, clone this [**project repository**](https://github.com/kaylamuraoka/react-portfolio) locally and commit your code on a separate branch. You may then modify the code to your liking, submit well-formed pull requests and open useful issues. For steps on how to clone a repository using the command line, read this section of the Github Docs [**about cloning a repository**](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#about-cloning-a-repository).
 
 ## Questions
 
