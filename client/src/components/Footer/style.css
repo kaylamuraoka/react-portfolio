@@ -1,15 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Cuprum:wght@600;700&family=Homemade+Apple&display=swap");
 footer {
-  min-height: 100px;
-  background-color: #000000;
+  background: #c0c0af;
+  bottom: 0 !important;
+  width: 100%;
+  padding: 40px 10px;
   position: relative;
+  font-family: "Cuprum", sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-footer span {
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding-bottom: 20px;
+footer a {
+  cursor: pointer;
+  color: #656550;
+  font-size: 14px;
+  transition: ease-in-out 0.2s;
+}
+
+footer a:hover {
+  color: #76765d;
+  opacity: 0.8;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+h5.copyright-text {
+  font-size: 14px;
+  color: #656550;
+  padding-top: 20px;
+}
+
+ul.footer-nav,
+ul.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul.footer-nav li {
+  margin: 0px;
+  padding: 10px;
+  left: -12px;
+}
+
+ul.footer-icons li {
+  margin: 0px;
+  left: -15px;
+  padding: 6px;
+}
+
+.footer-btn {
+  text-transform: uppercase;
+  border: none;
+  background: transparent;
+  color: #656550;
+  transition: ease-in-out 0.3;
+  font-size: 14px;
+}
+
+.footer-btn:hover {
   color: white;
+  font-size: 15px;
 }
