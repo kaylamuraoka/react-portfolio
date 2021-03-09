@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: "Halant", serif;
   font-weight: 400;
@@ -16,35 +16,30 @@ h6 {
 
 h1 {
   font-size: 4.6rem; /* (46px) */
-  color: #dd7564;
-}
+/* color: #dd7564;
+} */
 
-h2 {
+/* h2 {
   font-size: 3.6rem; /*(36px)*/
-}
+/* }
 
 h3 {
-  font-size: 2.8rem /*(28px)*/;
-}
+  font-size: 2.8rem /*(28px)*/
+/* } */
 
-h4 {
+/* h4 {
   font-size: 2.2rem; /*(22px)*/
-}
+/* } */
 
-h5 {
+/* h5 {
   font-size: 1.8rem; /*(18px)*/
-}
+/* } */
 
-h6 {
+/* h6 {
   font-size: 1.6rem; /*(16px)*/
-}
+/* } */
 
-.header {
-  background-color: #f0ede6;
-  padding: 30px;
-}
-
-button {
+/* button {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -58,8 +53,143 @@ button {
 
 button:hover {
   background-color: #b2dedd;
+} */
+@media (min-width: 200px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+  h3 {
+    font-size: 19px;
+  }
+  h4,
+  li {
+    font-size: 15px;
+  }
+  h5 {
+    font-size: 12px;
+  }
+  .img-container .list-group-item {
+    font-size: 11px;
+    padding: 10px 10px;
+  }
 }
+@media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+  h3 {
+    font-size: 19px;
+  }
+  h4,
+  li {
+    font-size: 15px;
+  }
+  h5 {
+    font-size: 12px;
+  }
 
-footer {
-  background-color: #000000;
+  .img-container .list-group-item {
+    font-size: 12px;
+    padding: 10px 10px;
+  }
+}
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 19px;
+  }
+  h4,
+  li {
+    font-size: 17px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  .img-container .list-group-item {
+    font-size: 14px;
+    padding: 10px 10px;
+  }
+}
+@media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 21px;
+  }
+  h4,
+  li {
+    font-size: 17px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  .img-container .list-group-item {
+    font-size: 14px;
+    padding: 10px 10px;
+  }
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4,
+  li {
+    font-size: 19px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+  .img-container .list-group-item {
+    font-size: 15px;
+    padding: 10px 10px;
+  }
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4,
+  li {
+    font-size: 19px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  .img-container .list-group-item {
+    font-size: 18px;
+    padding: 10px 10px;
+  }
 }
