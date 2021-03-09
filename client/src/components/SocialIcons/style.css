@@ -1,0 +1,17 @@
+.icon-holder {
+  list-style: none;
+}
+
+svg {
+  text-decoration: none;
+  margin-left: 2px;
+  margin-right: 2px;
+  color: #656550;
+  font-size: 16px !important;
+  transition: ease-in-out 0.2s;
+}
+
+svg:hover {
+  color: #76765d;
+  font-size: 19px !important;
+}
