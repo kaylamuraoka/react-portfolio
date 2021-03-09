@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Cuprum:wght@600;700&family=Homemade+Apple&display=swap");
+
+nav.top-nav {
+  padding: 20px;
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+  background-color: #c0c0af;
+}
+
+.logo {
+  position: relative;
+  display: block;
+  float: left;
+  font-size: 17px !important;
+  font-family: "Homemade Apple", cursive;
+  color: #3d3d3d;
+}
+
+div.navigation-links {
+  position: relative;
+  display: block;
+  float: right;
+}
+
+.navigation-links ul {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+ul li.nav-link {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 8px;
+}
+
+div ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0px 1px;
+}
