@@ -1,0 +1,32 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <a href=\"https://kaylamuraoka.github.io/react-portfolio/\">View Deployed Application</a> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaylamuraoka/react-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaylamuraoka/react-portfolio/issues"
+  },
+  "homepage": "https://github.com/kaylamuraoka/react-portfolio#readme",
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.5.0"
+  }
+}
